@@ -16,25 +16,10 @@ body {
 /* Navbar */
 .nav {
     min-height: 42px;
-    background-color: #EF5122;
+    background-color: #300ec7;
     display: flex;
-    /*
-      Ngoài cách này, các bạn có thể
-      sử dụng 1 trong 2 cách mình
-      comment phía dưới
-    */
     justify-content: space-between;
 }
-
-/* Cách này */
-/* .nav-list:nth-child(1) {
-  margin-right: auto;
-} */
-
-/* Hoặc cách này */
-/* .nav-list:nth-child(2) {
-  margin-left: auto;
-} */
 
 .nav-list {
     padding-left: 0;
@@ -101,7 +86,7 @@ body {
     justify-content: space-around;
 }
 
-/* PC, Tablet */
+/* PC */
 @media (min-width: 740px) {
     .feature-layout {
         flex-direction: row;
@@ -161,16 +146,6 @@ body {
 .center-layout__item {
     font-size: 42px;
     font-weight: 700;
-    /*
-      Cũng có cách khác là các bạn
-      thêm 2 thuộc tính vào flex-container:
-      justify-content: center;
-      align-item: center;
-  
-      cũng cho kết quả tương tự,
-      nhưng cách margin: auto này
-      ngắn gọn hơn
-    */
     margin: auto;
 }
 
